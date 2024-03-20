@@ -7,7 +7,7 @@ public class RPG {
         Assassin mechant = new Assassin("Tsaritsa", 100, 18, 10, 2);
         Guerrier gentil = new Guerrier("Sofia", 100, 18, 9, 5);
 
-        Partie guerre = new Partie(mechant,gentil,10);
+        Partie guerre = new Partie(mechant,gentil,15);
         System.out.println(guerre.lancerPartie());
     }
 }
